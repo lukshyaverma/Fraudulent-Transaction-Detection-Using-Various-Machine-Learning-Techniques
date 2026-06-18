@@ -6,6 +6,8 @@ List of Documents
 
   a. Course of Action: Date-wise documentation of steps taken towards the project.
 	
-  b. ML Ideas: Rough repository of ideas to explore for the project
+  b. ML Ideas: Rough repository of ideas to explore for the project.
 
-  c. Other SQL and Python queries in a numbered order
+  c. Other SQL and Python queries in a numbered order.
+
+  d. Pivot table analysis to understand data trends and opportunities for feature engineering.
