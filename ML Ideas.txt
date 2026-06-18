@@ -1,0 +1,4 @@
+ML Models: Linear Regression, Probit Model, Logistic Regression, Decision Tree, Tree Ensemble, Random Forest, XGBoost, Single Layer Neural Network, Deep Neural Network
+Alternate Techniques: Anomaly Detection
+
+Feature Ideas: Fraud to Gross, Customer Characteristics, Merchant Characteristics, Enhanced Authentication
