@@ -1,7 +1,7 @@
 create database if not exists fraud_project;
 use fraud_project;
 
-select * from main_data limit 5;
+select * from main_data limit 10;
 
 drop table if exists main_data_01;
 create table main_data_01 as select
