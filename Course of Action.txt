@@ -19,6 +19,14 @@ Created segment buckets for pivot table.
 
 19/06/2026
 
+Extra variables created
+  1. trans_dt (SUBSTRING_INDEX, STR_TO_DATE)
+  2. trans_time (SUBSTRING_INDEX, STR_TO_DATE)
+  3. customer_id (DENSE_RANK)
+  4. merchant_id (DENSE_RANK)
+  5. cm_merch_dist (RADIAN)
+  6. age (TIMESTAMPDIFF)
+
 Pivot table observations
   a. high variation across merchant category - category fraud to gross
   b. fraud concentrated in gt_1000 bucket - amount as a segment variable
