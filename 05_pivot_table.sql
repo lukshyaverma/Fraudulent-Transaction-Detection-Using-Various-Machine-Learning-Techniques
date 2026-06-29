@@ -65,6 +65,8 @@ create table pivot_01 as select
 from main_data
 group by 1,2,3,4,5,6,7,8,9;
 
+select * from pivot_01 limit 10;
+
 SELECT *
 FROM pivot_01
 INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/pivot_01.csv'
