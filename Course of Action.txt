@@ -41,4 +41,3 @@ Pivot table observations
 Create features
 CM level case pull
 Determine basic charactericts and fraud stats across segments from the pivot table.
-Try doing the same thing in python.
