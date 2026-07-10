@@ -1,7 +1,7 @@
 create database if not exists fraud_project;
 use fraud_project;
 
-select * from main_data limit 10;
+select * from main_data limit 5;
 
 drop table if exists main_data_01;
 create table main_data_01 as select
@@ -32,7 +32,7 @@ create table main_data_01 as select
 	fraud_ind
 from main_data;
 
-select * from main_data_01 limit 10;
+select * from main_data_01 limit 5;
 
 drop table if exists main_data_02;
 create table main_data_02 as select
@@ -63,7 +63,7 @@ create table main_data_02 as select
 	fraud_ind
 from main_data_01;
 
-select * from main_data_02 limit 10;
+select * from main_data_02 limit 5;
 
 describe main_data_02;
 
@@ -72,4 +72,4 @@ alter table main_data_02 rename to main_data;
 
 describe main_data;
 
-select * from main_data limit 10;
+select * from main_data limit 5;
