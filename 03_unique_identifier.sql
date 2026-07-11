@@ -11,7 +11,7 @@ FROM main_data;
 
 select count(distinct customer_id), count(distinct merchant_id) from main_data_01;
 
-select * from main_data_01 limit 5;
+select * from main_data_01 limit 10;
 
 describe main_data_01;
 
@@ -47,4 +47,4 @@ create table main_data as select
 	fraud_ind
 from main_data_01;
 
-select * from main_data limit 5;
+select * from main_data limit 10;
