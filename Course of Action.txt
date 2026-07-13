@@ -36,6 +36,16 @@ Pivot table observations
   f. no significant differences in fraud rate across cm_merch_distance
   g. cities and zips with 100% fraud but those are one of events
 
+Day 3
+
+Month wise observation
+  1. Transaction Date Range: 21 June 2020 - 31 December 2020
+  2. Development Time Period: Aug, Sep, Oct since we need at least one full month of past data
+  3. Validation Time Period: Nov since Dec shows unusually low fraud rate.
+
+CM Level Case Pull
+  
+
 (To-Do)
 
 Create features
