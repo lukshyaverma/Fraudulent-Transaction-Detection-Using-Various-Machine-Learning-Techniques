@@ -30,7 +30,7 @@ Extra variables created
 Pivot table observations
   a. high variation across merchant category - category fraud to gross
   b. fraud concentrated in gt_1000 bucket - amount as a segment variable
-  c. fraud rate higher for gt_60 age bucket - age as a segment variable
+  c. fraud rate slightly higher for gt_60 age bucket - age as a segment variable
   d. variation seen across states - state as a segment variable
   e. no significant diffferences in fraud rate across genders
   f. no significant differences in fraud rate across cm_merch_distance
