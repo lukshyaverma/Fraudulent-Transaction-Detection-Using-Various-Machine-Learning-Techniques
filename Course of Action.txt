@@ -43,11 +43,12 @@ Month wise observation
   2. Development Time Period: Aug, Sep, Oct since we need at least one full month of past data
   3. Validation Time Period: Nov since Dec shows unusually low fraud rate.
 
-CM Level Case Pull
+CM Level Case Pull - Case pull using windown function to determine the CMs with the highest number of fraud transactions and amount
+  Observations
+    1. 
   
 
 (To-Do)
 
 Create features
-CM level case pull
 Determine basic charactericts and fraud stats across segments from the pivot table.
