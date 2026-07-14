@@ -1,4 +1,4 @@
-Objective - Develop various machine learning-based fraud detection models to strengthen technical skills and domain knowledge.
+Objective - Develop various data science and machine learning-based fraud detection solutions to strengthen technical skills and domain knowledge.
 
 List of Documents
 
