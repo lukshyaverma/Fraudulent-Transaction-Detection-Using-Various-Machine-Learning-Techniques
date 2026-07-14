@@ -1,6 +1,11 @@
 ML Models: Linear Regression, Probit Model, Logistic Regression, Decision Tree, Tree Ensemble, Random Forest, XGBoost, Single Layer Neural Network, Deep Neural Network, Transformer Architecture.
 Alternate Techniques: Anomaly Detection
 
-Feature Ideas: Fraud to Gross, Customer Characteristics, Merchant Characteristics, Enhanced Authentication, Velocity
-
 Other Ideas: Use of PCA to visulaize data
+
+Final
+  a. Segmentation Variables (Categorical) - state, merchant category, age bucket
+  b. Segmentation Variables (Numerical) - amount, trans_hour
+
+  a. Development Period - Aug, Sep, Oct
+  b. Validation Period - Nov
