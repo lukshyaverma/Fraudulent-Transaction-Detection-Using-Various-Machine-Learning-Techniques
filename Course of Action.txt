@@ -55,4 +55,8 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
 
 (To-Do)
 
-Create features - Merchant and category ftg, CM amount OOP, Time OOP, Good History at Merchant, Velocity
+Create features
+  a. Merchant and category ftg - use window function to look at entire history in the data
+  b. CM Amount OOP
+  c. Velocity
+  d. CM Positive History
