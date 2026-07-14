@@ -56,4 +56,5 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
 (To-Do)
 
 Create features - Merchant and category ftg, CM amount OOP, Time OOP, Good History at Merchant, Velocity
-Determine basic charactericts and fraud stats across segments from the pivot table.
+  a. Segmentation Variables (Categorical) - state, merchant category, age bucket
+  b. Segmentation Variables (Numerical) - amount, trans_hour
