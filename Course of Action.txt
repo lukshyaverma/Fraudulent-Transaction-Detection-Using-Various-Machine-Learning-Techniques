@@ -57,9 +57,12 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
     Variables Created
       1. FTG (2) - maerchant ftg 30 days, category ftg 30 days
       2. CMPH (2) - CM good transaction count at merchant and category in last 30 days
+      3. Amount OOP (2) - Ratio of incoming amount to average and max amount in last 30 days
+      4. Velocity (3) - Count of txns in the last 24 hours, average count of txns in the last 24 hours over 30 days, ratio of the two
 
 (To-Do)
-
-Create features
-  b. CM Amount OOP - Amount/Avg Amount, Amount/Max Amount
-  c. Velocity - Number of txns in 24 hours / Avg number of txns in 24 hours in last 30 days
+Join all tables to the main data.
+Check for correct construct of all variables in cases.
+Make a new pivot table.
+Case reviews.
+RnP plot of new variables.
