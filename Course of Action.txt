@@ -61,5 +61,5 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
 (To-Do)
 
 Create features
-  b. CM Amount OOP
+  b. CM Amount OOP - Amount/Avg Amount, Amount/Max Amount
   c. Velocity
