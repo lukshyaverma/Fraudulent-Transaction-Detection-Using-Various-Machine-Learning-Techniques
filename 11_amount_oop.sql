@@ -15,3 +15,21 @@ WINDOW w AS (
     ORDER BY unix_time
     RANGE BETWEEN 2592000 PRECEDING AND 1 PRECEDING
 );
+
+DROP TABLE IF EXISTS merch_amount_oop;
+CREATE TABLE merch_amount_oop AS
+SELECT
+    txn_key,
+    merchant_id,
+    unix_time,
+    amount,
+    AVG(amount) OVER w AS merch_avg_amt_30d,
+    MAX(amount) OVER w AS merch_max_amt_30d,
+    amount / NULLIF(AVG(amount) OVER w, 0) AS merch_amt_vs_avg_ratio_30d,
+    amount / NULLIF(MAX(amount) OVER w, 0) AS merch_amt_vs_max_ratio_30d
+FROM main_data
+WINDOW w AS (
+    PARTITION BY merchant_id
+    ORDER BY unix_time
+    RANGE BETWEEN 2592000 PRECEDING AND 1 PRECEDING
+);
