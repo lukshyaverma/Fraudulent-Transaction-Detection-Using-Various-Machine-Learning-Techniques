@@ -29,4 +29,4 @@ SELECT
             RANGE BETWEEN 2592000 PRECEDING AND 1 PRECEDING
         ), 0
     ) AS cust_velocity_ratio_30d
-FROM base;
+FROM base;gg
