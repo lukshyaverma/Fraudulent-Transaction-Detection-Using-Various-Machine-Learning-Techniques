@@ -62,4 +62,4 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
 
 Create features
   b. CM Amount OOP - Amount/Avg Amount, Amount/Max Amount
-  c. Velocity
+  c. Velocity - Number of txns in 24 hours / Avg number of txns in 24 hours in last 30 days
