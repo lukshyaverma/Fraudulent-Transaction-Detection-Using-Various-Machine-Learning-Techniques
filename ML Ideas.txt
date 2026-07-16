@@ -5,7 +5,7 @@ Other Ideas: Use of PCA to visulaize data
 
 Final
   a. Segmentation Variables (Categorical) - state, merchant category, age bucket
-  b. Segmentation Variables (Numerical) - amount, trans_hour
+  b. Segmentation Variables (Numerical) - trans_hour
   c. FTG Variables - merchant and category
   d. Positive History - merchant and category
   e. Amount OOP - Average and Max Amounts
