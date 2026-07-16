@@ -8,6 +8,8 @@ Final
   b. Segmentation Variables (Numerical) - amount, trans_hour
   c. FTG Variables - merchant and category
   d. Positive History - merchant and category
+  e. Amount OOP - Average and Max Amounts
+  e. Velocity - Count and Ratio
 
   a. Development Period - Aug, Sep, Oct
   b. Validation Period - Nov
