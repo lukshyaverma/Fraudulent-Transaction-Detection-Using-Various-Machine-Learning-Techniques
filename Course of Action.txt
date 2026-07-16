@@ -60,9 +60,11 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
       3. Amount OOP (4) - Ratio of incoming amount to average and max amount in last 30 days at customer and merchant level.
       4. Velocity (3) - Count of txns in the last 24 hours, average count of txns in the last 24 hours over 30 days, ratio of the two
 
+  Day 6
+      a. Joined all tables to the main data.
+      b. Checked for correct construct of all variables in cases.
+
 (To-Do)
-Join all tables to the main data.
-Check for correct construct of all variables in cases.
 Make a new pivot table.
 Case reviews.
 RnP plot of new variables.
