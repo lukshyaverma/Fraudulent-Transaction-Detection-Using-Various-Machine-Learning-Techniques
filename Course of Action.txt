@@ -53,10 +53,13 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
     1. Creation of ftg variables - Computation heavy and not worth the time to run a day wise loop. Will instead use a simple window function.
     2. Creation of an hour indicator - Good discrimination seen across hours, fraud rate much higher during night hours.
 
+  Day 5
+    Variables Created
+      1. FTG (2) - maerchant ftg 30 days, category ftg 30 days
+      2. CMPH (2) - CM good transaction count at merchant and category in last 30 days
+
 (To-Do)
 
 Create features
-  a. Merchant and category ftg - use window function to look at entire history in the data
   b. CM Amount OOP
   c. Velocity
-  d. CM Positive History
