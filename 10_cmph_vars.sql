@@ -20,4 +20,4 @@ WINDOW w AS (
     PARTITION BY customer_id, category
     ORDER BY unix_time
     RANGE BETWEEN 2592000 PRECEDING AND 1 PRECEDING
-);aa
+);
