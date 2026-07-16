@@ -6,6 +6,8 @@ Other Ideas: Use of PCA to visulaize data
 Final
   a. Segmentation Variables (Categorical) - state, merchant category, age bucket
   b. Segmentation Variables (Numerical) - amount, trans_hour
+  c. FTG Variables - merchant and category
+  d. Positive History - merchant and category
 
   a. Development Period - Aug, Sep, Oct
   b. Validation Period - Nov
