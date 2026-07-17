@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS main_data_01;
+DROP TABLE IF EXISTS main_data_01;ss
 CREATE TABLE main_data_01 AS
 SELECT
     a.txn_key,
