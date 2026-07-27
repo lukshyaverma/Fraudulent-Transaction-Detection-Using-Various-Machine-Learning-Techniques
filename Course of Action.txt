@@ -74,6 +74,9 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
         f. Fraud rate greatly varies across merchant category - Add category as a segment variable
         g. Fraud rate greatly varies across states - Add state as a segment variable
         h. Fraud rate largely varies across merchant positive visits - Add merchant previous visit as a segment variables
+    2. RnP plot of variables
+        a. Good trend seen for all variables.
+        b. Checked buckets using count, max, min
 
 (To-do)
-RnP plot of new variables.
+Modeling - Logisitc Regression, Probit Regression, Decision Tree, Random Forest, XGBoost, Neural Network, RNN
