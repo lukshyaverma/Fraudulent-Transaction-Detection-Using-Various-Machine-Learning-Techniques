@@ -64,7 +64,10 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
       a. Joined all tables to the main data.
       b. Checked for correct construct of all variables in cases.
 
-(To-Do)
+  Day 7
+      1. Pivot Table Analysis
+        a. Fraud rate stable across months except Dec. Dev - Aug, Sep, Oct. Test - Nov
+        b. Fraud rate higher during night hours - Add trans_hr as a segment variable
 Make a new pivot table.
 Case reviews.
 RnP plot of new variables.
