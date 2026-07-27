@@ -69,6 +69,11 @@ CM Level Case Pull - Case pull using windown function to determine the CMs and M
         a. Fraud rate stable across months except Dec. Dev - Aug, Sep, Oct. Test - Nov
         b. Fraud rate higher during night hours - Add trans_hr as a segment variable
         c. Fraud rate concentrated at higher amount - Add amount variable
+        d. Fraud rate higher for higher age groups - Add age variable
+        e. Fraud rate does not change across genders
+        f. Fraud rate greatly varies across merchant category - Add category as a segment variable
+        g. Fraud rate greatly varies across states - Add state as a segment variable
+        h. Fraud rate largely varies across merchant positive visits - Add merchant previous visit as a segment variables
 
 (To-do)
 RnP plot of new variables.
